@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* navbar styles starts here  */
+.navbar_wrapper {
+  background-color: rgb(71, 85, 105);
+}
+.navbar_main {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  color: white;
+}
+.nav_menu_btn {
+  background-color: black;
+  color: white;
+  padding: 5px;  
+  border: none;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.nav_ham_bergur {
+  display: none;
+}
+/* navbar styles ends  here  */
+
+/* banner css starts here   */
+.banner_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(242,242,242);
+
+}
+.main_content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.banner_child{
+    width: 47%;
+    position: relative;
+}
+.banner_child img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.banner_btn{
+  border: 2px solid gray;
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 8px;
+  margin-top: 10px;
+
+
+}
+.fifty_off{
+  background-color: rgba(0, 0, 0, 0.67);
+  color: white;
+  padding: 10px 15px;
+  width: max-content;
+  font-size: 20px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* banner css ends  here  */
