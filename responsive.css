@@ -41,5 +41,12 @@
   grid-template-columns: repeat(1, 1fr);
    
   }
+  .qna_main{
+    flex-direction: column;
+    height: auto;
+  }
+  .qna_child {
+    width: 100%;
+  }
 
 }
